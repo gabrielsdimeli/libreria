@@ -6,7 +6,7 @@ public class LibreriaTest {
 
     @Test
     public void alquilarNovela(){
-        LibroNovela novela = new LibroNovela("A", "B");
+        LibroNovela novela = new LibroNovela("hola","nueva");
         novela.alquilar();
     }
 

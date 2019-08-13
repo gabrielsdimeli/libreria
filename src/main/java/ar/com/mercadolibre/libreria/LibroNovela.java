@@ -16,7 +16,7 @@ public class LibroNovela extends Libro implements LibroAlquilable {
     @Override
     public void alquilar() {
         Alquiler alquiler = new Alquiler(this, new Date(), null);
-        this.libreria.agregarAlquiler(alquiler);
+        //this.libreria.agregarAlquiler(alquiler);
     }
 
     @Override
